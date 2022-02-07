@@ -1,0 +1,16 @@
+delay: 0.1
+port: COM4
+gpu_index: 0
+gauges:
+- wmi_type: "cpu.load"
+  description: "cpu load in %"
+  value_0: 0
+  value_100: 100
+- wmi_type: "cpu.temperature"
+  description: "cpu load in C, range from idle temp to Tcase"
+  value_0: 20
+  value_100: 74
+
+
+# gpu temp 30 - 88
+# cpu temp 30 - 74
